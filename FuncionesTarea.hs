@@ -4,8 +4,8 @@ import Data.ByteString (sort)
 import Data.List (sortBy)
 
 ------------------------------------------------------------------
-Autor: Hernández Sosa Andres
-Materia: Programacion logica y funcional
+--Autor: Hernández Sosa Andres
+--Materia: Programacion logica y funcional
 
 -------------------------Funciones Básicas------------------------
 --Ejercicio 1
