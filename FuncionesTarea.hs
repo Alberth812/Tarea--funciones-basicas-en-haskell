@@ -58,6 +58,10 @@ palindromo xs = xs == reverse xs
 interior :: [a] -> [a]
 interior xs = tail (init xs)
 
+--Ejercicio 12
+linea :: Integer -> [Integer]
+linea n = [Sum [1..(n-1)] + 1 .. sum [1..n]]
+
 --Ejercicio 13
 segmento :: Int -> Int -> [a] -> [a]
 segmento m n xs = take (n - m + 1) (drop m xs)
