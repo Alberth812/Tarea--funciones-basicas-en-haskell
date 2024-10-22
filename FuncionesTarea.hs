@@ -2,8 +2,12 @@ import Data.Ord (comparing)
 import Data.Foldable (minimumBy, maximumBy)
 import Data.ByteString (sort)
 import Data.List (sortBy)
--------------------------Funciones Básicas------------------------
 
+------------------------------------------------------------------
+Autor: Hernández Sosa Andres
+Materia: Programacion logica y funcional
+
+-------------------------Funciones Básicas------------------------
 --Ejercicio 1
 promedio3 :: (Fractional a) => a -> a -> a -> a
 promedio3 x y z = (x + y + z) / 3
