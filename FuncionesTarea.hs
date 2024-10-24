@@ -237,16 +237,16 @@ data Estudiante = Estudiante {
 -- Lista de estudiantes modificada
 estudiantes :: [Estudiante]
 estudiantes = [
-  Estudiante "Karla" "Mendoza" 21 2001,
-  Estudiante "Diego" "Fernandez" 20 2002,
-  Estudiante "Alejandro" "Ruiz" 23 2003,
-  Estudiante "Natalia" "Gomez" 22 2004,
+  Estudiante "Karla" "Mendoza" 21 2003,
+  Estudiante "Diego" "Fernandez" 20 2004,
+  Estudiante "Alejandro" "Ruiz" 23 2001,
+  Estudiante "Natalia" "Gomez" 22 2002,
   Estudiante "Samuel" "Santos" 19 2005,
   Estudiante "Paola" "Cruz" 18 2006,
-  Estudiante "Daniel" "Castillo" 21 2007,
-  Estudiante "Valeria" "Martinez" 20 2008,
-  Estudiante "Oscar" "Rivas" 19 2009,
-  Estudiante "Lorena" "Serrano" 22 2010
+  Estudiante "Daniel" "Castillo" 21 2003,
+  Estudiante "Valeria" "Martinez" 20 2004,
+  Estudiante "Oscar" "Rivas" 19 2005,
+  Estudiante "Lorena" "Serrano" 22 2002
   ]
 
 -- Ordenar lista de estudiantes por edad
